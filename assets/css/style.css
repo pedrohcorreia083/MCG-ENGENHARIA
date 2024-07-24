@@ -399,14 +399,14 @@ h6 {
   color: #000000;
 }
 
-#hero span{
+#hero span {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
   color: var(--azul-escuro);
 }
 
-#hero .container{
+#hero .container {
   background: #fff;
   border-radius: 15px;
   box-shadow: 0px 0px 30px #000;
@@ -533,6 +533,7 @@ section {
   left: 0;
   right: 0;
   transform: skewY(-3deg);
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -809,6 +810,64 @@ section {
 .faq .faq-list a.collapsed .icon-close {
   display: none;
 }
+
+/* Faq 2 */
+.faq2 .faq2-list {
+  padding: 0;
+  list-style: none;
+}
+
+.faq2 .faq2-list li {
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.faq2 .faq2-list a {
+  display: block;
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-right: 25px;
+  cursor: pointer;
+}
+
+.faq2 .faq2-list i {
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.faq2 .faq2-list p {
+  color: #fff;
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.faq2 .faq2-list .icon-show {
+  display: none;
+}
+
+.faq2 .faq2-list a.collapsed {
+  color: #fff;
+}
+
+.faq2 .faq2-list a.collapsed:hover {
+  color: #fff;
+}
+
+.faq2 .faq2-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.faq2 .faq2-list a.collapsed .icon-close {
+  display: none;
+}
+
 
 /*--------------------------------------------------------------
 # Contact
