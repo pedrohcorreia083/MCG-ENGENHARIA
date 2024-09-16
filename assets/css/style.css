@@ -534,6 +534,7 @@ section {
   right: 0;
   transform: skewY(-3deg);
   color: #fff;
+  z-index: -1;
 }
 
 /*--------------------------------------------------------------
@@ -814,7 +815,6 @@ section {
 /* Faq 2 */
 .faq2 .faq2-list {
   padding: 0;
-  list-style: none;
 }
 
 .faq2 .faq2-list li {
@@ -849,7 +849,7 @@ section {
 }
 
 .faq2 .faq2-list .icon-show {
-  display: none;
+  display: block;
 }
 
 .faq2 .faq2-list a.collapsed {
