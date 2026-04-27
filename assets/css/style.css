@@ -939,8 +939,8 @@ section {
 }
 
 .flip-card-front img {
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 15px;
   object-fit: contain;
 }
